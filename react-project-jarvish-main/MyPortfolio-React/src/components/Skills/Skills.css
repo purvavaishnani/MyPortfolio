@@ -1,0 +1,14 @@
+
+
+
+.inputtext {
+    filter: drop-shadow(0 0 3px #5073f0);
+}
+
+.labeltext{
+    color: rgb(39, 39, 138);
+}
+
+.savebtn{
+    margin: auto;
+}

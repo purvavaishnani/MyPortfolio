@@ -1,0 +1,95 @@
+/* .personal-details-page{
+    text-align: center;
+    background-image: url(/src/assests/personal-details-bg.jpg)
+}
+
+.pd-card{
+    width: 50em;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+textarea{
+    resize: none;
+}
+
+.profile-img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin: auto;
+    filter: drop-shadow(0 0 8px #5073f0);
+}
+
+.img-upload{
+    margin: auto;
+    margin-left: 245px;
+    border: none;
+    color: red;
+}
+
+ .input-text {
+    filter: drop-shadow(0 0 3px #5073f0);
+}
+
+.label-text{
+    color: rgb(39, 39, 138);
+}
+
+.save-btn{
+    margin: auto;
+}
+ */
+
+
+ .personal-details-page{
+    text-align: center;
+}
+
+.pd-card{
+    width: 50em;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+textarea{
+    resize: none;
+}
+
+.profile-img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin: auto;
+    color: #BCB7D8;
+    filter: drop-shadow(0 0 8px #E7D2CF);
+}
+
+.img-upload{
+    margin: auto;
+    margin-left: 245px;
+    border: none;
+    color: #6CBEBF;
+}
+
+  /* .input-text {
+    filter: drop-shadow(0 0 1px #BCB7D8);
+}  */
+
+.label-text{
+    color: #6CBEBF;
+}
+
+.save-btn{
+    margin: auto;
+    color: #E7D2CF;
+    background-color: #6CBEBF   ;
+}
+
+ /* .personal-details-page{
+    background-color: #C7CECB;
+}  */
+
+::placeholder{
+    color: #6CBEBF;
+}

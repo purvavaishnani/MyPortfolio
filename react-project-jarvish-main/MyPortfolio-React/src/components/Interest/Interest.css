@@ -1,0 +1,76 @@
+.interest-page{
+  text-align: center;
+}
+
+.pd-card{
+  width: 50em;
+  margin: auto;
+  margin-top: 10px !important;
+}
+
+textarea{
+  resize: none;
+}
+
+.profile-img{
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin: auto;
+  color: #BCB7D8;
+  filter: drop-shadow(0 0 8px #E7D2CF);
+}
+
+.img-upload{
+  margin: auto;
+  margin-left: 245px;
+  border: none;
+  color: #6CBEBF;
+}
+
+/* .input-text {
+  filter: drop-shadow(0 0 1px #BCB7D8);
+}  */
+
+.label-text{
+  color: #6CBEBF;
+}
+
+.save-btn{
+  margin: auto;
+  color: #E7D2CF;
+  background-color: #6CBEBF   ;
+}
+
+/* .personal-details-page{
+  background-color: #C7CECB;
+}  */
+
+::placeholder{
+  color: #6CBEBF;
+}
+  .showInterest{
+    background-color: rgb(205, 228, 236);
+    height: auto;
+    width: 100%;
+  }
+
+  .interest-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #345676;
+}
+
+.interest-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #d43076;
+  bottom: 0;
+  left: 0;
+}

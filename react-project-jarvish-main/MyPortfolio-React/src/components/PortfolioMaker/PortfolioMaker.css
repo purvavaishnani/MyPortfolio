@@ -1,0 +1,62 @@
+.header-logo {
+  height: 25px;
+  width: 25px;
+  margin: auto;
+}
+
+.acc-header {
+  font-size: 25px;
+  color: #027683;
+  font-weight: 500;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-bar {
+  height: 50px;
+  background-color: pink;
+}
+
+.delete-acc {
+  border: 1px black solid;
+  height: 28px;
+  text-align: center;
+  border-radius: 40px;
+  width: 130px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  background-color: #ff0b8e;
+  position: absolute;
+  right: 150px;
+  top: 10px;
+}
+
+.logout {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px black solid;
+  height: 28px;
+  text-align: center;
+  border-radius: 40px;
+  width: 130px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  background-color: #ff0b8e;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+.display-link-p{
+  text-decoration: underline;
+    margin-top: 5px
+}
+
+*{
+    font-size: medium;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}

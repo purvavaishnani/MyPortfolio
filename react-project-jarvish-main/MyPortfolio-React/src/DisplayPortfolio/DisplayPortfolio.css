@@ -1,0 +1,248 @@
+.display-img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 0 8px #9898e5);
+}
+
+.display-name{
+    font-size: 50px;
+    font-weight: 700;
+    color:#0d0a74;
+}
+
+.display-job{
+     color: #595999
+}
+
+.about{
+    background-color: rgb(205, 228, 236); 
+}
+
+.contact{
+    background-color: rgb(205, 228, 236); 
+}
+
+.work-exp{
+      background-color: rgb(205, 228, 236); 
+}
+
+.skills{
+    background-color: rgb(138, 186, 202);
+}
+
+.services{
+    background-color: rgb(138, 186, 202);
+    padding: 60px 0;
+}
+
+
+
+.icon-box {
+    padding: 20px 15px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 20%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1;
+}
+
+.icon-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: ease-in-out 0.3s;
+    z-index: -1;
+}
+
+.icon-box:hover::before {
+    background: #39f4af;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.2em 0;
+    list-style-type: none;
+}
+
+.project-stack-item {
+    color: var(--clr-fg-alt);
+    font-size: .8rem;
+    font-weight: 500;
+    margin: 0.5em;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/*
+Work Exp
+*/
+.experience-wrapper{
+    background-color: #71aadb;
+    border-radius: 30%;
+    height: 227px;
+    padding: 46px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.company-wrapper {
+    width:30%;
+    float:left;
+    text-align:left;
+    padding-right:5%;
+    margin-bottom:60px;
+    
+  }
+  .job-wrapper {
+    width:70%;
+    float:left;
+    text-align:left;
+    padding-right:5%;
+    margin-bottom:60px;
+   
+  }
+  .section-padding{
+    padding:10px 10px 10px 10px;
+  }
+  .experience-title {
+    color: rgb(219 32 132);
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700
+    }
+
+
+.experience{
+    width:100%;
+}
+
+
+    
+
+
+/*
+Work Exp css ending
+*/
+
+
+.contact-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #345676;
+}
+
+.contact-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #d43076;
+    bottom: 0;
+    left: 0;
+}
+
+.contact-about h3 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #d43076;
+}
+
+.contact .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #d43076;
+    line-height: 0;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #d43076;
+}
+
+.icon-logo {
+    font-size: 50px;
+    color: #d43076;
+    line-height: 0;
+    margin-right: 15px;
+}
+
+.contact-info{
+    border: 1px solid #d43076;
+    border-radius: 25%;
+    text-align: center;
+}
+
+
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 450px;
+    width: 95%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.skill-btn--plain {
+    background-color: rgb(205, 228, 236); ;
+    border: 0;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 15%);
+    text-transform: none;
+}
+
+.skill-btn {
+    cursor: pointer;
+    display: block;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 0.8em 1.4em;
+    text-transform: lowercase;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+}
+.skills__list-item {
+    margin: 0.5em;
+}
+
