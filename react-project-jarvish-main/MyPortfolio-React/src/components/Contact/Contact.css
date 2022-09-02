@@ -1,0 +1,104 @@
+section{
+    padding: 100px 0;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+section .title::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 0 5px;
+    background: #F2F2F2;
+    transform: translateX(-50%);
+}
+
+.contact .title::after{
+    content: "get in touch";
+}
+
+.contact__aside i {
+  color: red;
+  display: block;
+}
+
+.contact__aside i span{
+  color: black;
+  margin-left: 10px;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.contact__aside p {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.h2-contact{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+form label {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact__form textarea {
+  height: 100px;
+}
+
+.contact__form button {
+  background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    width: 100%;
+}
+
+.contact__form button:hover {
+  background: none;
+  color: crimson;
+}
+
+@media (max-width: 576px) {
+    form label {
+      font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+
+    .contact__aside i span{
+      font-size: 10px;
+    }
+
+    .contact__aside p {
+      font-size: 15px;
+    }
+}
